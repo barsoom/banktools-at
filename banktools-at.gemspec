@@ -6,8 +6,8 @@ require "banktools-at/version"
 Gem::Specification.new do |spec|
   spec.name          = "banktools-at"
   spec.version       = BankTools::AT::VERSION
-  spec.authors       = ["Henrik Nyh"]
-  spec.email         = ["henrik@nyh.se"]
+  spec.authors       = ["Henrik Nyh", "Kim Persson"]
+  spec.email         = ["devs@auctionet.com"]
 
   spec.summary       = %q{Validate Austrian bank account numbers.}
   spec.homepage      = ""
