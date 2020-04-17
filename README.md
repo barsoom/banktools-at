@@ -4,27 +4,29 @@ Ruby gem to validate Austrian bank account numbers.
 
 ## Usage
 
-    account = BankTools::AT::Account.new("12345678901")
-    account.valid?  # => true
-    account.errors  # => []
+```ruby
+account = BankTools::AT::Account.new("12345678901")
+account.valid?  # => true
+account.errors  # => []
 
-    bad_account = BankTools::AT::Account.new("1")
-    bad_account.valid?  # => false
-    bad_account.errors  # => [:too_short]
+bad_account = BankTools::AT::Account.new("1")
+bad_account.valid?  # => false
+bad_account.errors  # => [:too_short]
 
-    blz = BankTools::AT::BLZ.new("12345")
-    blz.valid?  # => true
-    blz.errors  # => []
+blz = BankTools::AT::BLZ.new("12345")
+blz.valid?  # => true
+blz.errors  # => []
 
-    bad_blz = BankTools::AT::BLZ.new("1")
-    bad_blz.valid?  # => false
-    bad_blz.errors  # => [:too_short]
+bad_blz = BankTools::AT::BLZ.new("1")
+bad_blz.valid?  # => false
+bad_blz.errors  # => [:too_short]
 
-    # Error codes
+# Error codes
 
-    BankTools::AT::Errors::TOO_SHORT                # => :too_short
-    BankTools::AT::Errors::TOO_LONG                 # => :too_long
-    BankTools::AT::Errors::INVALID_CHARACTERS       # => :invalid_characters
+BankTools::AT::Errors::TOO_SHORT                # => :too_short
+BankTools::AT::Errors::TOO_LONG                 # => :too_long
+BankTools::AT::Errors::INVALID_CHARACTERS       # => :invalid_characters
+```
 
 ## Tests
 
@@ -36,7 +38,9 @@ Ruby gem to validate Austrian bank account numbers.
 
 Add this line to your application's Gemfile:
 
-    gem "banktools-at"
+```ruby
+gem "banktools-at"
+```
 
 And then execute:
 
