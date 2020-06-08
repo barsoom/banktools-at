@@ -54,7 +54,7 @@ Or install it yourself as:
 
 ## TODO
 
-* Use [check digit](http://www.cnb.cz/cs/platebni_styk/iban/download/TR201.pdf)
+* Use [check digit](https://www.cnb.cz/export/sites/cnb/cs/platebni-styk/.galleries/iban/download/TR201.pdf)
 
 ## Also see
 
