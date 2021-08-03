@@ -1,6 +1,6 @@
 # Austrian bank tools
 
-[![Build Status](https://secure.travis-ci.org/barsoom/banktools-at.svg)](http://travis-ci.org/barsoom/banktools-at)
+[![Ruby CI](https://github.com/barsoom/banktools-at/actions/workflows/ci.yml/badge.svg)](https://github.com/barsoom/banktools-at/actions/workflows/ci.yml)
 
 Ruby gem to validate Austrian bank account numbers.
 
