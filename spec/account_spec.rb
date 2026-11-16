@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe BankTools::AT::Account, "#valid?" do
+RSpec.describe BankTools::AT::Account, "#valid?" do
   it "returns true with no errors" do
     expect(BankTools::AT::Account.new("1234").valid?).to be true
   end
@@ -18,7 +18,7 @@ describe BankTools::AT::Account, "#valid?" do
   end
 end
 
-describe BankTools::AT::Account, "#errors" do
+RSpec.describe BankTools::AT::Account, "#errors" do
   let(:error_types) { BankTools::AT::Errors }
 
   it "returns an empty array when valid" do
